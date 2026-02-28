@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>macOS Portfolio</title>
+    <title>crushers</title>
     <style>
-        /* --- CORE SETTINGS --- */
+       
         :root {
             --system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             --macos-blue: rgba(0, 122, 255, 0.4);
@@ -21,13 +21,13 @@
         body {
             margin: 0; padding: 0; height: 100vh; width: 100vw; overflow: hidden;
             font-family: var(--system-font);
-            /* REPLACE WITH YOUR HERO WALLPAPER */
+            
             background-image: url('img/bg.jpg');
             background-position: center; background-size: cover;
             position: relative;
         }
 
-        /* --- DESKTOP SCATTERED ICONS --- */
+        
         .scatter-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; pointer-events: none; }
 
         .scatter-item {
@@ -53,7 +53,7 @@
             text-align: center; text-shadow: 0 1px 3px rgba(0,0,0,0.8); pointer-events: none;
         }
 
-        /* --- MACOS WINDOWS --- */
+        
         .window {
             position: absolute; width: 500px; background: #fff;
             border-radius: 10px; box-shadow: 0 25px 50px rgba(0,0,0,0.5);
@@ -118,7 +118,7 @@
         .dock-icon:hover { transform: scale(1.15) translateY(-10px); }
         .dock-icon.open::after { content: ''; position: absolute; bottom: -6px; width: 4px; height: 4px; background: #333; border-radius: 50%; box-shadow: 0 0 2px white; }
 
-        /* --- REALISTIC ICON URLS --- */
+        
         .di-arduino { background-image: url('img/arduino.png'); background-color: #00979D; background-size: 70%; }
         .di-vscode { background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg'); background-color: white; background-size: 80%; }
         .di-gemini { background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg'); background-color: white; background-size: 80%; }
@@ -158,7 +158,7 @@
             
             <div class="dock-separator"></div>
             
-            <div class="dock-icon di-insta" onclick="window.open('https://instagram.com', '_blank')"></div>
+            <div class="dock-icon di-insta" onclick="window.open('https://www.instagram.com/supercrushers?igsh=a2RkbjZvNTNvdnow', '_blank')"></div>
             <div class="dock-icon di-mail" onclick="window.location.href='mailto:nadavo.png@gmail.com'"></div>
             
             <div class="dock-separator"></div>
@@ -298,3 +298,4 @@
 </body>
 
 </html>
+
